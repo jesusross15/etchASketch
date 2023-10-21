@@ -61,3 +61,7 @@ footer {
  button:hover {
     background-color: gray;
 }
+
+.btns {
+    padding-top: 30px;
+}
