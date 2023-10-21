@@ -19,8 +19,8 @@ h1{
     grid-template-rows: repeat(16, 2fr);
     border: 5px solid white;
     border-radius: 5px;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     background-color: gray;
 }
 
@@ -64,4 +64,32 @@ footer {
 
 .btns {
     padding-top: 30px;
+}
+#slider{
+    -webkit-appearance: none;
+    background: black;
+    outline: none;
+    border-radius: 50px;
+}
+
+#slider{
+    -webkit-appearance: none;
+    background: black;
+    outline: none;
+    border-radius: 50px;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    width: 25px; 
+    height: 25px; 
+    background: white; 
+    border-radius: 50px;
+}
+
+#slider::-moz-range-thumb{
+    width: 25px; 
+    height: 25px; 
+    background: white; 
+    border-radius: 50px;
 }

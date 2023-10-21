@@ -9,16 +9,15 @@
 </head>
 <body>
     <h1>Etch-a-Sketch</h1>
-    <button class="reset" onClick="window.location.reload();">Reset</button>
-    <div class="container"></div>
     <div class="btns">
-        <button id="reset">Reset</button>
+        <button id="clear">Clear</button>
         <button id="rgb">RGB</button>
+        <div class="sliderAndValue">
+            <input type="range" min="10" max="100" value="16" id="slider">
+            <p class="value">16</p>
+        </div>
     </div>
-    <div class="sliderAndValue">
-        <input type="range" min="2" max="100" value="16" id="slider">
-        <p class="value">16</p>
-    </div>
+    <div class="container"></div>
     <footer> Made by Jesús Rafael Ross
         <a href="http://github.com/jesusross15"><img id="git-logo" src="github.png"/></a>
       </footer>
