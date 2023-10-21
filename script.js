@@ -34,6 +34,16 @@ slider.addEventListener('input', function() {
     }
 });
 
+const clear = document.querySelector('#clear');
+clear.addEventListener('click', function(){
+    let val = document.getElementById('slider').value;
+    let cell = grid.children;
+    for (let i = 0; i < val*val; i++) {
+        cell[i].style.backgroundColor = 'white';
+    }
+});
+
+
 
 
 createGrid()
