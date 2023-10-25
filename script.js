@@ -1,4 +1,5 @@
 const grid = document.querySelector('.container');
+// Creation of 16x16 grid
 
 let createGrid = function() {
 for (let i = 0; i < (16 * 16); i++) {
